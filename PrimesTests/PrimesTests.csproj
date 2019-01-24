@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{821B2187-4466-45E3-865D-D44B728171AE}</ProjectGuid>
+    <ProjectGuid>{59F8414F-2B86-48D9-A264-CC5888088F6C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FeetToInchTests</RootNamespace>
-    <AssemblyName>FeetToInchTests</AssemblyName>
+    <RootNamespace>PrimesTests</RootNamespace>
+    <AssemblyName>PrimesTests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,16 +56,16 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="LenghtConvertTests.cs" />
+    <Compile Include="PrimesTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Whiteboarding\LengthConvert.csproj">
-      <Project>{9572B2DF-0EB1-487E-94A3-9532BEE56A91}</Project>
-      <Name>LengthConvert</Name>
+    <ProjectReference Include="..\Primes\Primes.csproj">
+      <Project>{E054C758-FE79-482C-9B39-4691A45AA1C8}</Project>
+      <Name>Primes</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
