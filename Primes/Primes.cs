@@ -14,7 +14,7 @@ namespace Primes
         public static bool IsPrime(int x)
         {
             //bool prime = true;
-            if(x == 0 || x == 2)
+            if(x <= 1)
             {
                 //prime = false;
                 return false;

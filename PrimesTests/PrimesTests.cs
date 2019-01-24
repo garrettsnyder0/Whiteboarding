@@ -20,13 +20,13 @@ namespace Primes.Tests
         [TestMethod()]
         public void IsPrimeTest1()
         {
-            Assert.AreEqual(true, Primes.IsPrime(1));
+            Assert.AreEqual(false, Primes.IsPrime(1));
         }
 
         [TestMethod()]
         public void IsPrimeTest2()
         {
-            Assert.AreEqual(false, Primes.IsPrime(2));
+            Assert.AreEqual(true, Primes.IsPrime(2));
         }
 
         [TestMethod()]
