@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimesTests", "PrimesTests\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountVowels", "CountVowels\CountVowels.csproj", "{6DFD12D5-A3A8-4B9B-BEC2-4AF001512DB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseCharacters", "ReverseCharacters\ReverseCharacters.csproj", "{29D35781-0D06-4E21-96F6-0D2F9AA3FBE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6DFD12D5-A3A8-4B9B-BEC2-4AF001512DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DFD12D5-A3A8-4B9B-BEC2-4AF001512DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DFD12D5-A3A8-4B9B-BEC2-4AF001512DB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D35781-0D06-4E21-96F6-0D2F9AA3FBE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D35781-0D06-4E21-96F6-0D2F9AA3FBE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D35781-0D06-4E21-96F6-0D2F9AA3FBE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D35781-0D06-4E21-96F6-0D2F9AA3FBE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
