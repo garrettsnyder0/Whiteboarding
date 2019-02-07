@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamelCase", "CamelCaseWorki
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamelCaseTests", "CamelCaseTests\CamelCaseTests.csproj", "{296FD23B-9845-4D38-8021-85B3BB6BDEDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseInt", "ReverseInt\ReverseInt.csproj", "{E397A7C0-4444-46A2-9A79-3BF469AE1752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseIntTests", "ReverseIntTests\ReverseIntTests.csproj", "{1E3971BA-353C-4C1A-B857-C067CDBBA0F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{296FD23B-9845-4D38-8021-85B3BB6BDEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{296FD23B-9845-4D38-8021-85B3BB6BDEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{296FD23B-9845-4D38-8021-85B3BB6BDEDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E397A7C0-4444-46A2-9A79-3BF469AE1752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E397A7C0-4444-46A2-9A79-3BF469AE1752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E397A7C0-4444-46A2-9A79-3BF469AE1752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E397A7C0-4444-46A2-9A79-3BF469AE1752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E3971BA-353C-4C1A-B857-C067CDBBA0F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E3971BA-353C-4C1A-B857-C067CDBBA0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E3971BA-353C-4C1A-B857-C067CDBBA0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E3971BA-353C-4C1A-B857-C067CDBBA0F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
